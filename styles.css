@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2e8da; /* Light brown background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Center the container with some top margin */
+    padding: 20px;
+    background-color: #f9f3ec; /* Light beige background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    border-radius: 10px; /* Rounded corners */
+}
+
+h1 {
+    text-align: center;
+    color: #6d4c41; /* Brown heading */
+}
+
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6d4c41; /* Dark brown button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #8d6e63; /* Slightly lighter brown on hover */
+}
+
+#resultsContainer {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f3ec; /* Light beige background for results */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly raised effect */
+}
+
+#resultsList {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px; /* Space between each hotel result */
+}
+
+.hotel-info {
+    background-color: #fff; /* White background for hotel info */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.hotel-info p {
+    margin: 5px 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Align image in the center */
+    max-width: 100%; /* Set maximum width to container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-size: 15px;
+}
